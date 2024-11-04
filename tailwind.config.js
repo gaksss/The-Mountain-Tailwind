@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'mountain-bg' : "url('images/bg_header.jpg')",
+        'nuage-bg' : "url('images/bg_nuage.jpg')",
       },
       colors: {
         primary: {

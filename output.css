@@ -1336,6 +1336,11 @@ video {
     line-height: 2.25rem;
   }
 
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .sm\:leading-loose {
     line-height: 2;
   }
@@ -1350,12 +1355,20 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:w-\[\] {
     width: ;
   }
 
   .md\:w-\[20vw\] {
     width: 20vw;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 }
 
@@ -1374,6 +1387,34 @@ video {
 
   .lg\:w-\[2vw\] {
     width: 2vw;
+  }
+
+  .lg\:w-\[5vw\] {
+    width: 5vw;
+  }
+
+  .lg\:w-\[40\] {
+    width: 40;
+  }
+
+  .lg\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .lg\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:px-5 {

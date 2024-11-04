@@ -10,6 +10,7 @@ module.exports = {
         'mountain-bg' : "url('images/bg_header.jpg')",
         'nuage-bg' : "url('images/bg_nuage.jpg')",
         'camera-bg' : "url('images/bg_appareil_photo.jpg')",
+        'table-bg' : "url('images/bg_newsletter.jpg')"
       },
       colors: {
         primary: {

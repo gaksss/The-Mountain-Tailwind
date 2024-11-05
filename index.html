@@ -207,7 +207,7 @@
 
 
     <!-- SECTION PHOTOS -->
-    <section class="md:flex" id="photos">
+    <section class="md:flex bg-gray-300  pb-6 lg:justify-center" id="photos">
         <div class="gap-3 flex flex-col md:mx-[10px] md:my-[50px] md:hidden" id="phototel">
             <img class="md:w-[31%] " src="./images/300.jpeg" alt="Photo d'un salon avec une télé et des enceintes">
             <img class="md:w-[31%]" src="./images/776.jpeg" alt="Photo d'une montagne dans un paysage désertique">
@@ -215,24 +215,31 @@
             <img class="md:w-[31%]" src="./images/400.jpeg" alt="Photo d'un coucher de soleil en altitude">
             <img class="md:w-[31%]" src="./images/2476.jpeg" alt="Photo d'une personne tenant une caméra">
             <img class="md:w-[31%]" src="./images/439.jpeg" alt="Photo d'un avion ecrasé">
-            <div class="bg-gray-300 h-[25vh] md:w-[31%]">
-                <img class="" src="./images/140.jpeg" alt="Photo d'un panneau de motel américain">
-            </div>
+            <img class="" src="./images/140.jpeg" alt="Photo d'un panneau de motel américain">
+
         </div>
-        <div class="hidden md:flex md:w-autp md:px-6 md:py-10 md:gap-4" id="phototab">
-            <div class="md:w-[31%] md:flex md:flex-col md:gap-4" id="colgauche">
+        <div class="hidden md:flex md:w-auto md:px-6 md:py-10 md:gap-4 lg:w-[80vw] lg:justify-center" id="phototab">
+            <div class="md:w-[31%] md:flex md:flex-col md:gap-4 lg:w-[60%]" id="colgauche">
                 <img class="" src="./images/300.jpeg" alt="Photo d'un salon avec une télé et des enceintes">
-                <img class="" src="./images/400.jpeg" alt="Photo d'un coucher de soleil en altitude">
-                <img class="" src="./images/2476.jpeg" alt="Photo d'une personne tenant une caméra">
-                <img class="" src="./images/140.jpeg" alt="Photo d'un panneau de motel américain">
+                <div class="lg:flex md:flex md:flex-col md:gap-4 lg:flex-row">
+                    <img class="hidden lg:flex lg:w-[50%]" src="./images/800.jpeg"
+                        alt="Photo d'une arche du Golden Gate Bridge vue de proche">
+                    <div class="md:flex md:flex-col md:gap-4">
+                        <img class="" src="./images/400.jpeg" alt="Photo d'un coucher de soleil en altitude">
+                        <img class="lg:h-full" src="./images/2476.jpeg" alt="Photo d'une personne tenant une caméra">
+                    </div>
+                </div>
+                <img class="lg:w-full lg:h-full" src="./images/140.jpeg" alt="Photo d'un panneau de motel américain">
             </div>
 
-            <img class="md:w-[31%]" src="./images/776.jpeg" alt="Photo d'une montagne dans un paysage désertique">
-            <div class="md:w-[31%] md:h-full md:flex md:flex-col md:gap-4">
-                <img class="" src="./images/800.jpeg" alt="Photo d'une arche du Golden Gate Bridge vue de proche">
-
-
-                <img class="" src="./images/439.jpeg" alt="Photo d'un avion ecrasé">
+            <img class="md:w-[31%] lg:hidden" src="./images/776.jpeg"
+                alt="Photo d'une montagne dans un paysage désertique">
+            <div class="md:w-[31%] md:h-full md:flex md:flex-col md:gap-4 lg:object-cover lg:justify-center">
+                <img class="lg:hidden " src="./images/800.jpeg"
+                    alt="Photo d'une arche du Golden Gate Bridge vue de proche">
+                <img class="md:w-[31%] lg:flex lg:w-full hidden" src="./images/776.jpeg"
+                    alt="Photo d'une montagne dans un paysage désertique">
+                <img class="lg:w-full" src="./images/439.jpeg" alt="Photo d'un avion ecrasé">
             </div>
         </div>
 
@@ -256,7 +263,7 @@
 
 
     <!-- SECTION CONTACT -->
-    <section class="bg-table-bg bg-cover bg-center bg-no-repeat text-white " id="contact">
+    <section class="bg-table-bg bg-cover bg-center bg-no-repeat text-white" id="contact">
         <div class="backdrop-blur-md px-8 py-8">
 
             <h3 class="text-3xl mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, itaque voluptas?
@@ -265,7 +272,7 @@
                 a commodi laborum. Itaque fugit obcaecati cupiditate eius aspernatur non cum, dolorum porro maxime,
                 voluptates, minus architecto hic. Modi, eveniet reiciendis eligendi similique amet quae consequuntur,
                 quidem veritatis quia blanditiis neque, sint dolores quo ea vero.</p>
-            <form class=" shadow-md rounded ">
+            <form class="rounded ">
                 <div class="mb-4">
 
                     <input

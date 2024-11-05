@@ -821,6 +821,10 @@ video {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-center {
   background-position: center;
 }
@@ -1181,6 +1185,22 @@ video {
 
   .lg\:h-\[50vh\] {
     height: 50vh;
+  }
+
+  .lg\:h-\[50\] {
+    height: 50;
+  }
+
+  .lg\:h-\[100vh\] {
+    height: 100vh;
+  }
+
+  .lg\:h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .lg\:h-\[60vh\] {
+    height: 60vh;
   }
 
   .lg\:w-\[10vw\] {
